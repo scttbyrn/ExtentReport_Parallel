@@ -5,9 +5,7 @@
     <classes>
       <class name="testing.Testing">
         <methods>
-          <include name="TC2" invocation-numbers="0 1 2"/>
-          <include name="tearDown"/>
-          <include name="TC1"/>
+          <include name="windowTabTest"/>
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- testing.Testing -->

@@ -1,88 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-21T07:10:49 EDT" name="Suite" finished-at="2026-04-21T07:11:11 EDT" duration-ms="22344">
+  <suite started-at="2026-04-21T12:53:44 EDT" name="Default suite" finished-at="2026-04-21T12:53:53 EDT" duration-ms="8769">
     <groups>
-      <group name="Smoke">
-        <method signature="Testing.TC2(java.lang.String,java.lang.String)[pri:0, instance:testing.Testing@e3b3b2f]" name="TC2" class="testing.Testing"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-04-21T07:10:49 EDT" name="Test" finished-at="2026-04-21T07:11:11 EDT" duration-ms="22344">
+    <test started-at="2026-04-21T12:53:44 EDT" name="Default test" finished-at="2026-04-21T12:53:53 EDT" duration-ms="8769">
       <class name="testing.Testing">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@e3b3b2f]" started-at="2026-04-21T07:10:49 EDT" name="launchBrowser" finished-at="2026-04-21T07:10:52 EDT" duration-ms="3119" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@5b12b668]" started-at="2026-04-21T12:53:44 EDT" name="launchBrowser" finished-at="2026-04-21T12:53:47 EDT" duration-ms="3520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="TC2(java.lang.String,java.lang.String)[pri:0, instance:testing.Testing@e3b3b2f]" started-at="2026-04-21T07:10:52 EDT" name="TC2" data-provider="getData" finished-at="2026-04-21T07:10:58 EDT" duration-ms="5614" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Scott]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="windowTabTest()[pri:0, instance:testing.Testing@5b12b668]" started-at="2026-04-21T12:53:47 EDT" name="windowTabTest" finished-at="2026-04-21T12:53:53 EDT" duration-ms="5184" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.Testing@e3b3b2f]" started-at="2026-04-21T07:10:58 EDT" name="tearDown" finished-at="2026-04-21T07:10:58 EDT" duration-ms="579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@e3b3b2f]" started-at="2026-04-21T07:10:58 EDT" name="launchBrowser" finished-at="2026-04-21T07:11:00 EDT" duration-ms="1465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="TC2(java.lang.String,java.lang.String)[pri:0, instance:testing.Testing@e3b3b2f]" started-at="2026-04-21T07:11:00 EDT" name="TC2" data-provider="getData" finished-at="2026-04-21T07:11:05 EDT" duration-ms="4826" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Byron]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[@#$%^&&**()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.Testing@e3b3b2f]" started-at="2026-04-21T07:11:05 EDT" name="tearDown" finished-at="2026-04-21T07:11:05 EDT" duration-ms="377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@e3b3b2f]" started-at="2026-04-21T07:11:05 EDT" name="launchBrowser" finished-at="2026-04-21T07:11:06 EDT" duration-ms="1311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="TC2(java.lang.String,java.lang.String)[pri:0, instance:testing.Testing@e3b3b2f]" started-at="2026-04-21T07:11:06 EDT" name="TC2" data-provider="getData" finished-at="2026-04-21T07:11:11 EDT" duration-ms="4529" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Escueta]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1234556789]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.Testing@e3b3b2f]" started-at="2026-04-21T07:11:11 EDT" name="tearDown" finished-at="2026-04-21T07:11:11 EDT" duration-ms="404" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- windowTabTest -->
       </class> <!-- testing.Testing -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

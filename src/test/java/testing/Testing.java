@@ -21,26 +21,50 @@ public class Testing extends BasePage {
 
 
 
-	@Test (dataProvider = "getData", groups = {"Smoke"}, retryAnalyzer=Retry.class)
-	public void TC2(String uname, String pword) {
-
-		landingpage.openWebsite("https://github.com");
-		SignUpPage spage = landingpage.verifyClickedHeader();
-		spage.signUpUser(uname, pword);
+//	@Test (dataProvider = "getData", groups = {"Smoke"}, retryAnalyzer=Retry.class)
+//	public void TC2(String uname, String pword) {
+//
+//		landingpage.openWebsite("https://github.com");
+//		
+//		SignUpPage spage = landingpage.verifyClickedHeader();
+//		spage.signUpUser(uname, pword);
+//		landingpage.explicitWait("//input [@id = 'password']");
+//		
+////		Assert.fail();
+//
+//
+//	}
+//	
+//
+//	@Test (dataProvider = "getData", dependsOnMethods = "TC2")
+//	public void TC1(String uname, String pword) {
+//
+//		landingpage.openWebsite("https://github.com");
+//		SignUpPage spage = landingpage.verifyClickedHeader();
+//		spage.signUpUser(uname, pword);
+//
+//
+//	}
+	
+	
+//	@Test
+//	public void actionsTest() {
+//		landingpage.openWebsite("https://github.com");
+//		landingpage.mouseHover("//div/button[normalize-space() = 'Solutions']");
+//		landingpage.inputUpperCase("//span[normalize-space() = 'Search or jump to...']");
+//		
+//		
+//	}
+	
+	@Test
+	public void windowTabTest() {
 		
-//		Assert.fail();
-
-
-	}
-
-	@Test (dataProvider = "getData", dependsOnMethods = "TC2")
-	public void TC1(String uname, String pword) {
-
-		landingpage.openWebsite("https://github.com");
-		SignUpPage spage = landingpage.verifyClickedHeader();
-		spage.signUpUser(uname, pword);
-
-
+		
+		landingpage.openWebsite("https://rahulshettyacademy.com/loginpagePractise/#");
+		landingpage.windowHandle();
+		
+		
+		
 	}
 
 

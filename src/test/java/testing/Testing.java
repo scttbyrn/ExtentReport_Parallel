@@ -21,7 +21,7 @@ public class Testing extends BasePage {
 
 
 
-	@Test (dataProvider = "getData", retryAnalyzer=Retry.class)
+	@Test (dataProvider = "getData", groups = {"Smoke"}, retryAnalyzer=Retry.class)
 	public void TC2(String uname, String pword) {
 
 		landingpage.openWebsite("https://github.com");
@@ -33,15 +33,15 @@ public class Testing extends BasePage {
 
 	}
 
-//	@Test (dataProvider = "getData", dependsOnMethods = "TC2")
-//	public void TC1(String uname, String pword) {
-//
-//		landingpage.openWebsite("https://github.com");
-//		SignUpPage spage = landingpage.verifyClickedHeader();
-//		spage.signUpUser(uname, pword);
-//
-//
-//	}
+	@Test (dataProvider = "getData", dependsOnMethods = "TC2")
+	public void TC1(String uname, String pword) {
+
+		landingpage.openWebsite("https://github.com");
+		SignUpPage spage = landingpage.verifyClickedHeader();
+		spage.signUpUser(uname, pword);
+
+
+	}
 
 
 

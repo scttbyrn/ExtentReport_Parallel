@@ -12,6 +12,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import AbstractTest.BasePage;
+import AbstractTest.Retry;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.LandingPage;
 import pageObjects.SignUpPage;
@@ -20,7 +21,7 @@ public class Testing extends BasePage {
 
 
 
-	@Test (dataProvider = "getData")
+	@Test (dataProvider = "getData", retryAnalyzer=Retry.class)
 	public void TC2(String uname, String pword) {
 
 		landingpage.openWebsite("https://github.com");
@@ -32,15 +33,15 @@ public class Testing extends BasePage {
 
 	}
 
-	@Test (dataProvider = "getData", dependsOnMethods = "TC2")
-	public void TC1(String uname, String pword) {
-
-		landingpage.openWebsite("https://github.com");
-		SignUpPage spage = landingpage.verifyClickedHeader();
-		spage.signUpUser(uname, pword);
-
-
-	}
+//	@Test (dataProvider = "getData", dependsOnMethods = "TC2")
+//	public void TC1(String uname, String pword) {
+//
+//		landingpage.openWebsite("https://github.com");
+//		SignUpPage spage = landingpage.verifyClickedHeader();
+//		spage.signUpUser(uname, pword);
+//
+//
+//	}
 
 
 

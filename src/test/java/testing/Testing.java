@@ -45,8 +45,8 @@ public class Testing extends BasePage {
 //
 //
 //	}
-	
-	
+//	
+//	
 //	@Test
 //	public void actionsTest() {
 //		landingpage.openWebsite("https://github.com");
@@ -55,16 +55,33 @@ public class Testing extends BasePage {
 //		
 //		
 //	}
-	
+//	
+//	@Test
+//	public void windowTabTest() {
+//		
+//		
+//		landingpage.openWebsite("https://rahulshettyacademy.com/loginpagePractise/#");
+//		landingpage.windowHandle();
+//		
+//		
+//		
+//	}
+//	
+//	@Test
+//	public void FrameHandle() {
+//		
+//		landingpage.openWebsite("https://jqueryui.com");
+//		landingpage.frameHandle();
+//		
+//		
+//	}
+//	
 	@Test
-	public void windowTabTest() {
+	public void SelectDropdown() {
 		
-		
-		landingpage.openWebsite("https://rahulshettyacademy.com/loginpagePractise/#");
-		landingpage.windowHandle();
-		
-		
-		
+		landingpage.openWebsite("https://rahulshettyacademy.com/dropdownsPractise/");
+		landingpage.staticDropDown();
+		landingpage.loopDropdown();
 	}
 
 

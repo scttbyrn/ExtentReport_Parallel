@@ -5,8 +5,8 @@
     <classes>
       <class name="testing.Testing">
         <methods>
-          <include name="windowTabTest"/>
           <include name="launchBrowser"/>
+          <include name="FrameHandle"/>
         </methods>
       </class> <!-- testing.Testing -->
     </classes>

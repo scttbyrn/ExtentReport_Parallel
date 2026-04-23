@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testing.Testing" class="method navigator-link" hash-for-method="SelectDropdown">SelectDropdown</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testing.Testing" class="method navigator-link" hash-for-method="testCalendar">testCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testing.Testing" class="method navigator-link" hash-for-method="testDropDown(ind, india)">testDropDown(ind, india)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testing.Testing" class="method navigator-link" hash-for-method="testDropDown(jap, japan)">testDropDown(jap, japan)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testing.Testing" class="method navigator-link" hash-for-method="testDropDown(ame, american samoa)">testDropDown(ame, american samoa)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -126,9 +141,33 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SelectDropdown">
-                  </a> <!-- SelectDropdown -->
-                  <span class="method-name">SelectDropdown</span>
+                  <a name="testCalendar">
+                  </a> <!-- testCalendar -->
+                  <span class="method-name">testCalendar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDropDown(ind, india)">
+                  </a> <!-- testDropDown(ind, india) -->
+                  <span class="method-name">testDropDown</span>
+                  <span class="parameters">(ind,india)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDropDown(jap, japan)">
+                  </a> <!-- testDropDown(jap, japan) -->
+                  <span class="method-name">testDropDown</span>
+                  <span class="parameters">(jap,japan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDropDown(ame, american samoa)">
+                  </a> <!-- testDropDown(ame, american samoa) -->
+                  <span class="method-name">testDropDown</span>
+                  <span class="parameters">(ame,american samoa)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,16 +227,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SelectDropdown')
+data.setCell(0, 1, 'testDropDown')
 data.setCell(0, 2, 'testing.Testing')
-data.setCell(0, 3, 3925);
+data.setCell(0, 3, 8881);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testDropDown')
+data.setCell(1, 2, 'testing.Testing')
+data.setCell(1, 3, 5775);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDropDown')
+data.setCell(2, 2, 'testing.Testing')
+data.setCell(2, 3, 4514);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCalendar')
+data.setCell(3, 2, 'testing.Testing')
+data.setCell(3, 3, 3960);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -229,8 +280,32 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">SelectDropdown</span>
-                <span class="method-start">3183 ms</span>
+                <span class="method-name">testCalendar</span>
+                <span class="method-start">6330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">10312 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDropDown(ind, india)</span>
+                <span class="method-start">11696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">16212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDropDown(ame, american samoa)</span>
+                <span class="method-start">18290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">27175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDropDown(jap, japan)</span>
+                <span class="method-start">29511 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -76,12 +76,22 @@ public class Testing extends BasePage {
 //		
 //	}
 //	
-	@Test
-	public void SelectDropdown() {
+	@Test (dataProvider = "getCountryData")
+	public void testDropDown(String keyword, String wholeCountry) {
 		
 		landingpage.openWebsite("https://rahulshettyacademy.com/dropdownsPractise/");
 		landingpage.staticDropDown();
 		landingpage.loopDropdown();
+		landingpage.autoSuggestiveDropdown(keyword, wholeCountry);
+		
+	}
+	
+	@Test
+	public void testCalendar() {
+		
+		
+		landingpage.CalendarUI();
+		
 	}
 
 
@@ -97,6 +107,19 @@ public class Testing extends BasePage {
 
 		};
 
+	}
+	
+	@DataProvider
+	public Object[][] getCountryData() {
+		
+		return new Object [][] {
+			
+			{"ind","india"},
+			{"ame","american samoa"},
+			{"jap","japan"}
+				
+		};
+		
 	}
 
 

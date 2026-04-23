@@ -13,9 +13,8 @@ import com.aventstack.extentreports.Status;
 
 import resources.ExtentsReportNG;
 
-
-
-public class Listeners extends BasePage implements ITestListener {
+public class Listeners extends BasePage implements ITestListener{
+	
 	ExtentTest test;
 	ExtentReports extent = ExtentsReportNG.getObjectReport();
 	ThreadLocal <ExtentTest> extentTest = new ThreadLocal<ExtentTest>(); //this class object is to resolve and synchronize the test during parallel execution
@@ -87,5 +86,6 @@ public class Listeners extends BasePage implements ITestListener {
 		
 		extent.flush();
 	}
+	
 
 }

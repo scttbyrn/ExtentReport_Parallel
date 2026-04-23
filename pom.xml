@@ -50,7 +50,7 @@
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
-			<version>5.1.2</version>
+			<version>5.0.9</version>
 			<scope>compile</scope>
 		</dependency>
 
@@ -79,7 +79,7 @@
 				</pluginManagement>
 			</build>
 		</profile>
-		
+
 		<profile>
 			<id>Smoke</id>
 			<build>
@@ -102,7 +102,7 @@
 				</pluginManagement>
 			</build>
 		</profile>
-		
+
 	</profiles>
 
 	<build>

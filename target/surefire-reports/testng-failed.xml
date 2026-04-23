@@ -8,7 +8,7 @@
     <classes>
       <class name="testing.Testing">
         <methods>
-          <include name="SelectDropdown"/>
+          <include name="testDropDown" invocation-numbers="0 1 2"/>
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- testing.Testing -->

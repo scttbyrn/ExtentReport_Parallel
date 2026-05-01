@@ -142,7 +142,7 @@ public class ReusableMethods {
 
 	public void staticDropDown() {
 
-		WebElement currency = driver.findElement(By.xpath("//select [@name= 'ctl00$mainContent$DropDownListCurrenc']"));
+		WebElement currency = driver.findElement(By.xpath("//select [@name= 'ctl00$mainContent$DropDownListCurrency']"));
 		dropdown = new Select(currency); //set Select class for the element object
 
 		dropdown.selectByValue("USD");

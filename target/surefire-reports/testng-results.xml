@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-23T04:08:42 EDT" name="Suite" finished-at="2026-04-23T04:09:18 EDT" duration-ms="35350">
+  <suite started-at="2026-05-01T11:17:58 PST" name="Suite" finished-at="2026-05-01T11:18:33 PST" duration-ms="35231">
     <groups>
     </groups>
-    <test started-at="2026-04-23T04:08:42 EDT" name="Test" finished-at="2026-04-23T04:09:18 EDT" duration-ms="35350">
+    <test started-at="2026-05-01T11:17:58 PST" name="Test" finished-at="2026-05-01T11:18:33 PST" duration-ms="35231">
       <class name="testing.Testing">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-04-23T04:08:43 EDT" name="launchBrowser" finished-at="2026-04-23T04:08:49 EDT" duration-ms="6329" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-05-01T11:17:58 PST" name="launchBrowser" finished-at="2026-05-01T11:18:10 PST" duration-ms="11707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="testCalendar()[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-04-23T04:08:49 EDT" name="testCalendar" finished-at="2026-04-23T04:08:53 EDT" duration-ms="3960" status="PASS">
+        <test-method signature="testCalendar()[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-05-01T11:18:10 PST" name="testCalendar" finished-at="2026-05-01T11:18:12 PST" duration-ms="2781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCalendar -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-04-23T04:08:53 EDT" name="launchBrowser" finished-at="2026-04-23T04:08:54 EDT" duration-ms="1384" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-05-01T11:18:13 PST" name="launchBrowser" finished-at="2026-05-01T11:18:14 PST" duration-ms="1660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="testDropDown(java.lang.String,java.lang.String)[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-04-23T04:08:54 EDT" name="testDropDown" data-provider="getCountryData" finished-at="2026-04-23T04:08:59 EDT" duration-ms="4514" status="PASS">
+        <test-method signature="testDropDown(java.lang.String,java.lang.String)[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-05-01T11:18:14 PST" name="testDropDown" data-provider="getCountryData" finished-at="2026-05-01T11:18:19 PST" duration-ms="5312" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,11 +35,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDropDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-04-23T04:08:59 EDT" name="launchBrowser" finished-at="2026-04-23T04:09:01 EDT" duration-ms="2078" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-05-01T11:18:19 PST" name="launchBrowser" finished-at="2026-05-01T11:18:21 PST" duration-ms="1903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="testDropDown(java.lang.String,java.lang.String)[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-04-23T04:09:01 EDT" name="testDropDown" data-provider="getCountryData" finished-at="2026-04-23T04:09:10 EDT" duration-ms="8881" status="PASS">
+        <test-method signature="testDropDown(java.lang.String,java.lang.String)[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-05-01T11:18:21 PST" name="testDropDown" data-provider="getCountryData" finished-at="2026-05-01T11:18:27 PST" duration-ms="5509" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDropDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-04-23T04:09:10 EDT" name="launchBrowser" finished-at="2026-04-23T04:09:12 EDT" duration-ms="2336" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-05-01T11:18:27 PST" name="launchBrowser" finished-at="2026-05-01T11:18:29 PST" duration-ms="2055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="testDropDown(java.lang.String,java.lang.String)[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-04-23T04:09:12 EDT" name="testDropDown" data-provider="getCountryData" finished-at="2026-04-23T04:09:18 EDT" duration-ms="5775" status="PASS">
+        <test-method signature="testDropDown(java.lang.String,java.lang.String)[pri:0, instance:testing.Testing@2a693f59]" started-at="2026-05-01T11:18:29 PST" name="testDropDown" data-provider="getCountryData" finished-at="2026-05-01T11:18:33 PST" duration-ms="4226" status="PASS">
           <params>
             <param index="0">
               <value>

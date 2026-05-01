@@ -90,11 +90,11 @@ public class BasePage {
 	}
 	
 	
-//	@AfterMethod (alwaysRun = true)
-//	public void tearDown() {
-//		
-//		driver.quit();
-//	}
+	@AfterMethod (alwaysRun = true)
+	public void tearDown() {
+		
+		driver.quit();
+	}
 	
 	
 	//Screenshots

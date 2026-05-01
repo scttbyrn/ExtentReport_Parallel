@@ -8,11 +8,11 @@ public class ExtentsReportNG {
 	
 	public static ExtentReports getObjectReport() {
 		
-//		String path = System.getProperty("user.dir") + "//test-output//index.html";
+		String path = System.getProperty("user.dir") + "//reports//index.html";
 		
-		ExtentSparkReporter reporter = new ExtentSparkReporter("test-output/index.html");
+		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("Web Automation Report");
-		reporter.config().setTheme(Theme.STANDARD);
+//		reporter.config().setTheme(Theme.STANDARD);
 		reporter.config().setDocumentTitle("Test Results");
 		
 		

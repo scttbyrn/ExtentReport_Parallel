@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-01T18:15:38 PST" name="Suite" finished-at="2026-05-01T18:15:54 PST" duration-ms="16350">
+  <suite started-at="2026-05-01T19:23:07 PST" name="Suite" finished-at="2026-05-01T19:23:24 PST" duration-ms="16510">
     <groups>
     </groups>
-    <test started-at="2026-05-01T18:15:38 PST" name="Test" finished-at="2026-05-01T18:15:54 PST" duration-ms="16350">
+    <test started-at="2026-05-01T19:23:07 PST" name="Test" finished-at="2026-05-01T19:23:24 PST" duration-ms="16510">
       <class name="testing.Testing">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@723ca036]" started-at="2026-05-01T18:15:38 PST" name="launchBrowser" finished-at="2026-05-01T18:15:40 PST" duration-ms="2847" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testing.Testing@7fd50002]" started-at="2026-05-01T19:23:07 PST" name="launchBrowser" finished-at="2026-05-01T19:23:10 PST" duration-ms="3025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="testCalendar()[pri:0, instance:testing.Testing@723ca036]" started-at="2026-05-01T18:15:40 PST" name="testCalendar" finished-at="2026-05-01T18:15:53 PST" duration-ms="12775" status="FAIL">
+        <test-method signature="testCalendar()[pri:0, instance:testing.Testing@7fd50002]" started-at="2026-05-01T19:23:10 PST" name="testCalendar" finished-at="2026-05-01T19:23:23 PST" duration-ms="12908" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".react-date-picker__inputGrou"}
@@ -20,9 +20,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8eb4ba4273d7260a939cce665dacb55a, findElement {using=css selector, value=.react-date-picker__inputGrou}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54191}, goog:processID: 8276, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54191/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8eb4ba4273d7260a939cce665dacb55a]]>
+Command: [5431b4ba7f4fb62d346629e0af3e0532, findElement {value=.react-date-picker__inputGrou, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59355}, goog:processID: 3568, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59355/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5431b4ba7f4fb62d346629e0af3e0532]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".react-date-picker__inputGrou"}
@@ -31,9 +31,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8eb4ba4273d7260a939cce665dacb55a, findElement {using=css selector, value=.react-date-picker__inputGrou}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54191}, goog:processID: 8276, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54191/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8eb4ba4273d7260a939cce665dacb55a
+Command: [5431b4ba7f4fb62d346629e0af3e0532, findElement {value=.react-date-picker__inputGrou, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59355}, goog:processID: 3568, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59355/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5431b4ba7f4fb62d346629e0af3e0532
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -83,7 +83,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCalendar -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.Testing@723ca036]" started-at="2026-05-01T18:15:53 PST" name="tearDown" finished-at="2026-05-01T18:15:54 PST" duration-ms="437" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.Testing@7fd50002]" started-at="2026-05-01T19:23:23 PST" name="tearDown" finished-at="2026-05-01T19:23:24 PST" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

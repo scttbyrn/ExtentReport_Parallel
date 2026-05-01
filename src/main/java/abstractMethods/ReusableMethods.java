@@ -142,7 +142,7 @@ public class ReusableMethods {
 
 	public void staticDropDown() {
 
-		WebElement currency = driver.findElement(By.xpath("//select [@name= 'ctl00$mainContent$DropDownListCurrenc']"));
+		WebElement currency = driver.findElement(By.xpath("//select [@name= 'ctl00$mainContent$DropDownListCurrency']"));
 		dropdown = new Select(currency); //set Select class for the element object
 
 		dropdown.selectByValue("USD");
@@ -216,7 +216,7 @@ public class ReusableMethods {
 		String[] expectedList = {monthNumber,date,year};
 
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
-		driver.findElement(By.cssSelector(".react-date-picker__inputGroup")).click();
+		driver.findElement(By.cssSelector(".react-date-picker__inputGrou")).click();
 		driver.findElement(By.cssSelector(".react-calendar__navigation__label")).click();
 		driver.findElement(By.cssSelector(".react-calendar__navigation__label")).click();
 		driver.findElement(By.xpath("//button[text()='"+year+"']")).click();

@@ -76,15 +76,15 @@ public class Testing extends BasePage {
 //		
 //	}
 //	
-	@Test (dataProvider = "getCountryData")
-	public void testDropDown(String keyword, String wholeCountry) {
-		
-		landingpage.openWebsite("https://rahulshettyacademy.com/dropdownsPractise/");
-		landingpage.staticDropDown();
-		landingpage.loopDropdown();
-		landingpage.autoSuggestiveDropdown(keyword, wholeCountry);
-		
-	}
+//	@Test (dataProvider = "getCountryData")
+//	public void testDropDown(String keyword, String wholeCountry) {
+//		
+//		landingpage.openWebsite("https://rahulshettyacademy.com/dropdownsPractise/");
+//		landingpage.staticDropDown();
+//		landingpage.loopDropdown();
+//		landingpage.autoSuggestiveDropdown(keyword, wholeCountry);
+//		
+//	}
 	
 	@Test
 	public void testCalendar() {

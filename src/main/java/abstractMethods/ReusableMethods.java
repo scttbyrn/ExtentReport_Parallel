@@ -25,6 +25,8 @@ public class ReusableMethods {
 	Actions action;
 	Select dropdown;
 	WebDriverWait wait;
+	
+	
 
 	public ReusableMethods(WebDriver driver) {
 
@@ -140,7 +142,7 @@ public class ReusableMethods {
 
 	public void staticDropDown() {
 
-		WebElement currency = driver.findElement(By.xpath("//select [@name= 'ctl00$mainContent$DropDownListCurrency']"));
+		WebElement currency = driver.findElement(By.xpath("//select [@name= 'ctl00$mainContent$DropDownListCurrenc']"));
 		dropdown = new Select(currency); //set Select class for the element object
 
 		dropdown.selectByValue("USD");

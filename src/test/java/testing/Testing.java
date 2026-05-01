@@ -19,7 +19,7 @@ import pageObjects.SignUpPage;
 
 public class Testing extends BasePage {
 
-
+//CICD
 
 //	@Test (dataProvider = "getData", groups = {"Smoke"}, retryAnalyzer=Retry.class)
 //	public void TC2(String uname, String pword) {

@@ -216,7 +216,7 @@ public class ReusableMethods {
 		String[] expectedList = {monthNumber,date,year};
 
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
-		driver.findElement(By.cssSelector(".react-date-picker__inputGroupzzz")).click();
+		driver.findElement(By.cssSelector(".react-date-picker__inputGroup")).click();
 		driver.findElement(By.cssSelector(".react-calendar__navigation__label")).click();
 		driver.findElement(By.cssSelector(".react-calendar__navigation__label")).click();
 		driver.findElement(By.xpath("//button[text()='"+year+"']")).click();

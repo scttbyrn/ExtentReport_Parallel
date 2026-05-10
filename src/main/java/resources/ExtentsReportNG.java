@@ -6,7 +6,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentsReportNG {
 	
-	public ExtentReports getObjectReport() {
+	public static ExtentReports getObjectReport() {
 
 	    String reportName = System.getProperty("reportName", "DefaultReport");
 

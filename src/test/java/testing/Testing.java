@@ -79,7 +79,7 @@ public class Testing extends BasePage {
 	@Test (dataProvider = "getCountryData", groups = {"Regression"})
 	public void testDropDown(String keyword, String wholeCountry) {
 		
-		landingpage.openWebsite("https://rahulshettyacademy.com/dropdownsPractise/");
+		landingpage.openWebsite("https://rahulshettyacademy.com/dropdownsPractis/");
 		landingpage.staticDropDown();
 		landingpage.loopDropdown();
 		landingpage.autoSuggestiveDropdown(keyword, wholeCountry);

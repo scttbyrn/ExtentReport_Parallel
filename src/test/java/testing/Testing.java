@@ -18,6 +18,8 @@ import pageObjects.LandingPage;
 import pageObjects.SignUpPage;
 
 public class Testing extends BasePage {
+	
+	//Full_Regression
 
 
 
